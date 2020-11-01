@@ -1,0 +1,6 @@
+
+# inline
+Al ser display inline perdemos ciertas propiedades como margin-top, margin-bottom, height.
+# inline-block
+Permitiendo cambiar el layout a un comporamiento como el inline pero permitiendo cambiar los márgenes verticales y la altura como cualquier elemento con display block.
+

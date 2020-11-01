@@ -1,0 +1,113 @@
+body{
+    background-color: #fffbf7;
+}
+
+.header {
+
+    /*margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;*/
+    /*One line */
+    margin: 40px 20px 0 20px;
+    
+    /* Los whitespace(or tabs, breaklines) de la etiquetas siguen al tamaño fuente de su contenedor. El tamaño variará dependiendo del tamaño de fuente que tenga su contenedor.
+   */
+    font-size: 0; /*Asi garantizamos que los espacios no tomen ningun tamaño*/
+    font-family: sans-serif;
+    height: 45px;
+    
+    
+}
+
+.footer {
+    /*border:solid black 3px;*/
+    margin-top : 40px;
+    margin-down :40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+/*Al ser un elemento inline, se inabilita ciertas propiedades como height, margint-button
+, margin-top*/
+/* div , ul,  nav { */
+/*     display : inline; */
+/* } */
+
+/* li{ */
+/*     display: inline; */
+/*     margin-bottom: 300px; */
+/* } */
+/*La manera seria utilizar display: inline-block asi las propiedades height, margin-top
+pueden ser modificadas.
+*/
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+    
+}
+
+li {
+    display: inline;
+}
+
+.logo {
+    width: 15%;
+}
+
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+    color : #025157;
+    font-weight : 500;
+    
+}
+
+.actions {
+    width : 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+main {
+    margin: 50px 140px 60px 140px;   
+}
+
+#texto-principal {
+    color:#46484c;   
+}
+
+.item {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.actions > *{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sign-in{
+    color: #67b54b;
+    text-decoration: none; 
+}
+
+#start-free {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
