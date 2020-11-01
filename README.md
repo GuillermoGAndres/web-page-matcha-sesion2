@@ -1,8 +1,6 @@
 # Menu de navegacion de una pagina web 
 
 ![capterra](./img/reto4.png)
-
-![capterra](./img/reto4.png)
 ![capterra](./img/reto4-3.png)
 
 ## Progreso (Timeline)
